@@ -10,6 +10,6 @@ I thought a bash script would do the trick but I wanted it to be working automat
 
 - Create a bash script called, `mouse-scrolling.sh`, I provide this bash in this repository.
 - Move this script under a directory called `~/Scripts/`
-- Create a Launch Agent to make scrolling check automatic with the following command, `cat << EOF > ~/Library/LaunchAgents/com.mouse-scrolling.plist`, I've shared the content of the file in the repository.
+- Create a Launch Agent to make scrolling check automatic with the following command, `cat << EOF > ~/Library/LaunchAgents/com.mouse-scrolling.plist`, then paste the followings on after this command then run. I've shared the content of the file in the repository.
 - Finally, to load the Launch Agent, you need to run this command `launchctl load ~/Library/LaunchAgents/com.mouse-scrolling.plist`
 - Now you are all set! Your Macbook will check scrolling any time you plugin/plugout a USB device.
