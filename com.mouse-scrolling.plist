@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.mouse_scrolling</string>
+    <string>com.mouse-scrolling</string>
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>exec ~/Scripts/mouse_scrolling.sh</string>
+        <string>exec ~/Scripts/mouse-scrolling.sh</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
